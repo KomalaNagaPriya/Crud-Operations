@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "name": "Ervin Howell",
+      "username": "Antonet",
+      "email": "Shanna@melissa.tv",
+      "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771",
+        "geo": {
+          "lat": "-43.9509",
+          "lng": "-34.4618"
+        }
+      },
+      "phone": "010-692-6593 x09125",
+      "website": "anastasia.net",
+      "company": {
+        "name": "Deckow-Crist",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+      }
+    },
+    {
+      "id": "379e",
+      "name": "Komala Naga Priya ",
+      "username": "komaaaaa",
+      "email": "komalanagapriya@gmail.com"
+    },
+    {
+      "id": "192f",
+      "name": "komala",
+      "username": "koma",
+      "email": "komalanagapriya@gmail.com"
+    },
+    {
+      "id": "5310",
+      "name": "kom",
+      "username": "komala",
+      "email": "komalanagapriya@gmail.com"
+    },
+    {
+      "id": "9ca6",
+      "name": "komala",
+      "username": "koma",
+      "email": "komalanagapriya@gmail.com"
+    }
+  ]
+}

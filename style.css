@@ -1,0 +1,335 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  border:solid 5px  red;
+  /* width:100%; */
+
+}
+
+nav{
+  width:100%;
+  height:50px;
+  align-items: center;
+  background-color: #f8f9fa;
+  /* border:solid; */
+  display: flex;
+  justify-content: space-between;
+ 
+  
+}
+#a1{
+  font-size: 20px;
+  margin-left: 20px;
+}
+#nav{
+  width:50%;
+  padding:70px;
+  /* border:solid; */
+}
+ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+#logbutt{
+  color:#f19537;
+  /* font-size: 18px; */
+
+}
+#regbutt{
+  padding: 5px;
+  border:none;
+  background-color: #f19537;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+#div1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg?cs=srgb&dl=pexels-josh-hild-2422461.jpg&fm=jpg);
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+#div11{
+    color:white;
+    height:50%;
+    /* border:solid; */
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+#d1in{
+  width: 75%;
+  height: 50px;
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+#d1in:focus{
+  outline: none;
+}
+#d1h1{
+  font-size: 40px;
+  margin: 0px 0px 20px;
+}
+#d1p{
+  font-size: 24px;
+  margin: 0px 0px 35px;
+  font-weight: 100;
+}
+
+/*      CARDS       */
+#div2{
+  display: flex;
+  flex-wrap: wrap;
+  /* border: solid; */
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.tile {
+  position: relative;
+  height: 400px;
+  width: 260px;
+  border-radius:8px;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex column;
+  margin:0px 10px 20px;
+
+  /* border: solid; */
+}
+
+.tile img{
+  width:100%;
+  height:100%;
+  transition-duration: 0.2s;
+  
+}
+.tile img:hover{
+  transform:scale(1.1);
+  filter: brightness(50%);
+}
+.tdata{
+ color: white;
+ /* border:solid; */
+ position: relative;
+ bottom: 80px;
+ text-align: center;
+ margin-left:auto;
+
+}
+.tdh5{
+  font-size: 20px;
+  margin:0px 0px 8px;
+}
+.tdp{
+  font-size: 16px;
+  margin:0px 0px 16px;
+}
+#foot{
+  background: #f1f1f1;
+    width: 100%;
+    padding: 16px 0px;
+    color: #999;
+}
+#foot span{
+  margin-left: 85px;
+}
+
+/* Bengaluru==================================================== */
+#bmain{
+ 
+  display:flex column;
+  align-items: center;
+}
+#bdiv1{
+  height:60vh;
+ 
+  padding:100px 75px;
+  margin-bottom: 40px;
+}
+#bdiv1 h1{
+  margin:0px 0px 8px;
+  font-size: 40px;
+  color:#212529;
+}
+#bdiv1 p{
+  margin:0px 0px 8px;
+  font-size: 24px;
+  color:#212529;
+}
+#bdiv11{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: solid #999999 1px;
+  border-bottom: solid #999999 1px;
+  padding:20px 0px;
+  margin:0px 0px 48px;
+}
+#bdiv111,#bdiv112,#bdiv113{
+  display:flex;
+  align-items: center;
+  border-left:solid  #999999 1px;
+  border-right: solid  #999999 1px;
+  padding:0px 20px
+  
+}
+.tab{
+  padding: 6px 12px;
+  margin-right:10px;
+}
+/* CARDS========= */
+#bdiv2{
+  /* margin-top:25px; */
+  padding:10px 75px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+.bdcard{
+  height: 345px;
+  width: 250px;
+  border: solid 1px #99999993 ;
+  position: relative;
+  margin: 0px 20px 20px 0px;
+  border-radius: 10px;
+  /* border: solid; */
+}
+.bdcard img{
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+.bdcard img:hover{
+  filter:brightness(50%);
+}
+.p1{
+  width: 50%;
+  color: #fff;
+  background-color: darkorange;
+  padding: 10px 10px;
+  position: absolute;
+  top: 20px;
+  right: -15px;
+  border-radius: 10px 0px 0px 10px;
+  text-align: center;
+  text-decoration: solid;
+  box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.3);
+}
+.h51{
+  margin:-8px 0px;
+  font-size: 1.3rem;
+  position: absolute;
+  bottom: 44px;
+  padding:10px
+}
+.p2{
+  font-size: 1rem;
+  position: absolute;
+  bottom: 40px;
+  right: 0px;
+  padding:10px
+}
+.h5{
+  font-size: 1.3rem;
+  position: absolute;
+  bottom: 12px;
+  padding:10px
+}
+.p3{
+  font-size: 1rem;
+  position: absolute;
+  bottom: 12px;
+  right: 0px;
+  padding:10px
+}
+
+
+/* ============================ */
+#carousal{
+  /* border:solid 5px; */
+  width:700px;
+  height:500px;
+  overflow: hidden;
+}
+#carousal img{
+  width:100%;
+  height:500px;
+}
+
+/*Niaboytown  */
+
+#niadiv{
+  border: 1px solid   #eee;
+  width:730px;
+  height:1230px;
+  margin:100px 80px 70px;
+  border-radius: 4px;
+  padding: 16px;
+}
+#niadiv h1{
+  font-size: 40px;
+  color:#212529;
+  margin:0px 0px 8px;
+}
+#niadiv p{
+  font-size: 20px;
+  color:#999;
+  margin: 0px 0px 16px;
+
+}
+#niadiv hr{
+  margin:16px 0px;
+  color:#212529;
+}
+#niadiv h5{
+  font-size:20px;
+  margin:0px 0px 8px;
+  color:#212529;
+}
+#niadiv #div{
+  width: 703px;
+  height:530px;
+  font-size: 15px;
+  color:#212529;
+  /* border:solid; */
+  line-height:25px;
+}
+
+
+/* #bmd{
+  height: 280px;
+  width: 100%;
+  border: solid 1px red;
+  padding: 110px 105px;
+}
+#bmd h1{
+  font-size: 2.6rem;
+}
+#bmd p{
+  font-size: 1.7rem;
+}
+#bmd1{
+  position: relative;
+  display: flex;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  height: 80px;
+  margin-top: 10px;
+  
+} */
+
+
+
+  
